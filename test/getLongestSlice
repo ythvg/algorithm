@@ -45,5 +45,4 @@ function getLongestSlice(arr, stepSize=1) {
     return results;
 }
 
-console.log(getLongestSlice([2, 4, 5, 8, 10, 11, 12, 6, 7]))
-
+module.exports = getLongestSlice;
